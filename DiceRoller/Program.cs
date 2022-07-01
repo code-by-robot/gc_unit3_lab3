@@ -68,7 +68,7 @@ static List<int> rollDie(int numsides, int numDie)
     List<int> results = new List<int>();
     for (int i = 0; i < numDie; i++)
     {
-        results.Add(rand.Next(numsides));
+        results.Add(rand.Next(numsides)+1);
     }
     return results;
 }
